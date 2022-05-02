@@ -45,7 +45,8 @@ death_daily <- death_daily %>% mutate(Date=as.Date(Date, format="%Y-%b-%d"))
 plot1 <- ggplot(case_daily,aes(Date,`New Cases`)) +
   geom_bar(stat = "identity",na.rm=TRUE,color="light blue") +
   ggtitle("Daily Trends in Number of COVID-19 Cases in the United States Reported to CDC") +
-  xlab("Date")+ylab("Cases") +
+  xlab("Year 2020")+
+  ylab("Cases") +
   scale_x_date(labels=date_format("%b"),breaks=date_breaks("2 month")) +
   theme(plot.title = element_text(lineheight=.8, face="bold", size = 10)) +
   theme(text = element_text(size=18)) +
@@ -56,7 +57,7 @@ plot1 <- ggplot(case_daily,aes(Date,`New Cases`)) +
 plot2 <- ggplot(death_daily,aes(Date,`New Deaths`)) +
   geom_bar(stat = "identity",na.rm=TRUE,color="red") +
   ggtitle("Daily Trends in Number of COVID-19 Deaths in the United States Reported to CDC") +
-  xlab("Date") + 
+  xlab("Year 2020") + 
   ylab("Deaths Number") +
   scale_x_date(labels=date_format("%b"),breaks=date_breaks("2 month")) +
   theme(plot.title = element_text(lineheight=.8, face="bold", size = 10)) +
@@ -121,7 +122,7 @@ m <- m %>% addPolygons(
     textsize = "15px",
     direction = "auto"))
 
-m %>% addLegend(pal = pal, values = ~n, opacity = 0.7, title = "Total Number of COVID-19 Cases in the US Reported to the CDC, by State",
+m <- m %>% addLegend(pal = pal, values = ~n, opacity = 0.7, title = "Total Number of COVID-19 Cases in the US Reported to the CDC, by State",
                 position = "bottomright")
 
 
