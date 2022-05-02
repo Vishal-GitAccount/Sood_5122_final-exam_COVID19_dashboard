@@ -3,8 +3,11 @@ The dashboard showing visualization of COVID 19 data in the United States. The d
 
 ## Steps to run the application:
 Step 1: Download data folder containing three csv files namely, "case_daily_trends_united_states", "death_daily_trends_united_states", "united_states_covid19_cases_and_deaths_by_state"
+
 Step 2: Download .json file namely, "gz_2010_us_040_00_500k" which is needed for maps
+
 Step 3: Download file namely, "sood_app_final" which is main code to run application
+
 Step 4: Download R project namely, "Sood_finalproject"
 
 Note: your "main folder" should contain following 4 files/folders: 1) .json (file) 2) R code (file) 3) R project (file) 4) Data (folder)
