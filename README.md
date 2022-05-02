@@ -45,4 +45,5 @@ Following libraries will be needed to run this app:
 23) lubridate
 
 
-## Deploted app Link:
+## Deployed app Link:
+https://asood3.shinyapps.io/Sood_finalproject/
