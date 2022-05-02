@@ -1,4 +1,4 @@
-# Sood_5122_final-exam_COVID19_dashboard
+#### Sood_5122_final-exam_COVID19_dashboard
 The dashboard showing visualization of COVID 19 data in the United States. The data was obtained from CDC official website. This dashboard is made along with my classmate Vishal Vijayanand.
 
 ## Steps to run the application:
@@ -9,6 +9,10 @@ Step 2: Download .json file namely, "gz_2010_us_040_00_500k" which is needed for
 Step 3: Download file namely, "sood_app_final" which is main code to run application
 
 Step 4: Download R project namely, "Sood_finalproject"
+
+Step 5: Open R project and the open R code in the project.
+
+Step 6: Hit run app
 
 Note: your "main folder" should contain following 4 files/folders: 1) .json (file) 2) R code (file) 3) R project (file) 4) Data (folder)
 your data folder will contain 3 csv files
@@ -39,3 +43,6 @@ Following libraries will be needed to run this app:
 21) gridExtra
 22) scales
 23) lubridate
+
+
+## Deploted app Link:
