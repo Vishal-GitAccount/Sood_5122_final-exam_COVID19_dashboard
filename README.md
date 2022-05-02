@@ -13,6 +13,8 @@ Step 4: Download R project namely, "Sood_finalproject"
 Note: your "main folder" should contain following 4 files/folders: 1) .json (file) 2) R code (file) 3) R project (file) 4) Data (folder)
 your data folder will contain 3 csv files
 
+text file namely, "libraries" contains all the libraries needed for this application to run.
+
 Following libraries will be needed to run this app:
 1) shinydashboard
 2) shiny
