@@ -17,6 +17,8 @@ Step 6: Hit run app
 Note: your "main folder" should contain following 4 files/folders: 1) .json (file) 2) R code (file) 3) R project (file) 4) Data (folder)
 your data folder will contain 3 csv files
 
+Note 2: if you are downloading this as a zip folder: after extracting you might have to save folder outside of downloaded zip folder.
+
 text file namely, "libraries" contains all the libraries needed for this application to run.
 
 Following libraries will be needed to run this app:
